@@ -1,0 +1,13 @@
+{
+  "name": "unternehmensformen-study-desk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline German company-form study desk, adapted from the supplied project",
+  "scripts": {
+    "test": "node tests/questions.test.cjs && node tests/app.test.cjs",
+    "generate": "python3 tools/generate_deck.py",
+    "start": "python3 server.py --no-browser"
+  },
+  "devDependencies": { "jsdom": "31.0.1" },
+  "engines": { "node": ">=22.12.0" }
+}

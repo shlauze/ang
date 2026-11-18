@@ -1,0 +1,118 @@
+section,tags,title,info,example
+F1 - Einzelunternehmen,merkmale,"Einzelunternehmen — Allgemeine Merkmale, Gesetzesgrundlage","Kleingewerbetreibende oder Kaufleute nach HGB; HGB, BGB.","Tabelle 1 · Allgemeine Merkmale, Gesetzesgrundlage"
+F1 - Einzelunternehmen,gruendung,Einzelunternehmen — Gründung,Formfrei; 1 Person.,Tabelle 1 · Gründung
+F1 - Einzelunternehmen,kapital,Einzelunternehmen — Mindestkapital,Kein Mindestkapital.,Tabelle 1 · Mindestkapital
+F1 - Einzelunternehmen,geschaeftsfuehrung,Einzelunternehmen — Geschäftsführung (Innenverhältnis),Inhaber allein.,Tabelle 1 · Geschäftsführung (Innenverhältnis)
+F1 - Einzelunternehmen,vertretung,Einzelunternehmen — Vertretung (Außenverhältnis),Inhaber allein.,Tabelle 1 · Vertretung (Außenverhältnis)
+F1 - Einzelunternehmen,register,"Einzelunternehmen — Legitimation, Firma und Registereintragung",Bei e. K.: PA und HRA.,"Tabelle 1 · Legitimation, Firma und Registereintragung"
+F1 - Einzelunternehmen,organe,Einzelunternehmen — Organe,Einzelunternehmer.,Tabelle 1 · Organe
+F1 - Einzelunternehmen,haftung,Einzelunternehmen — Haftung,Mit Betriebsvermögen und Privatvermögen; unbeschränkt.,Tabelle 1 · Haftung
+F1 - Einzelunternehmen,gewinn,Einzelunternehmen — Gewinnverteilung,Den gesamten Gewinn und Verlust trägt der Einzelunternehmer allein.,Tabelle 1 · Gewinnverteilung
+F2 - GbR,merkmale,"GbR — Allgemeine Merkmale, Gesetzesgrundlage",Personengesellschaft; private GbR; unternehmerische GbR; BGB; rechtsfähige oder nicht rechtsfähige GbR (unternehmerisch tätig? Am Rechtsverkehr teilnehmend).,"Tabelle 1 · Allgemeine Merkmale, Gesetzesgrundlage"
+F2 - GbR,gruendung,GbR — Gründung,Formfrei; mindestens 2 Personen; § 705 BGB; Gesellschaftsregister bei eGbR (mehr Rechtssicherheit).,Tabelle 1 · Gründung
+F2 - GbR,kapital,GbR — Mindestkapital,Kein Mindestkapital.,Tabelle 1 · Mindestkapital
+F2 - GbR,geschaeftsfuehrung,GbR — Geschäftsführung (Innenverhältnis),Gemeinschaftlich durch die Gesellschafter.,Tabelle 1 · Geschäftsführung (Innenverhältnis)
+F2 - GbR,vertretung,GbR — Vertretung (Außenverhältnis),Gemeinschaftlich.,Tabelle 1 · Vertretung (Außenverhältnis)
+F2 - GbR,register,"GbR — Legitimation, Firma und Registereintragung",Kein Handelsregistereintrag; PA.,"Tabelle 1 · Legitimation, Firma und Registereintragung"
+F2 - GbR,organe,GbR — Organe,Gesellschafter.,Tabelle 1 · Organe
+F2 - GbR,haftung,GbR — Haftung,"Persönlich, gesamtschuldnerisch, unbeschränkt (Privatvermögen und Betriebsvermögen).",Tabelle 1 · Haftung
+F2 - GbR,gewinn,GbR — Gewinnverteilung,§ 722: gleiche Anteile oder per Vertrag.,Tabelle 1 · Gewinnverteilung
+F3 - OHG,merkmale,"OHG — Allgemeine Merkmale, Gesetzesgrundlage",Personengesellschaft; § 105 HGB.,"Tabelle 1 · Allgemeine Merkmale, Gesetzesgrundlage"
+F3 - OHG,gruendung,OHG — Gründung,Formfrei; mindestens 2 Personen; Gesellschaftsvertrag.,Tabelle 1 · Gründung
+F3 - OHG,kapital,OHG — Mindestkapital,Kein Mindestkapital; Einlage laut Vertrag.,Tabelle 1 · Mindestkapital
+F3 - OHG,geschaeftsfuehrung,OHG — Geschäftsführung (Innenverhältnis),Einzeln bei gewöhnlichen Geschäften; gemeinsam bei außergewöhnlichen Geschäften (Gesellschafterversammlung).,Tabelle 1 · Geschäftsführung (Innenverhältnis)
+F3 - OHG,vertretung,OHG — Vertretung (Außenverhältnis),Einzelvertretung der Gesellschafter.,Tabelle 1 · Vertretung (Außenverhältnis)
+F3 - OHG,register,"OHG — Legitimation, Firma und Registereintragung",HRA; PA; Zusatz: OHG.,"Tabelle 1 · Legitimation, Firma und Registereintragung"
+F3 - OHG,organe,OHG — Organe,Gesellschafter.,Tabelle 1 · Organe
+F3 - OHG,haftung,OHG — Haftung,"Persönlich, gesamtschuldnerisch, unbeschränkt (Privatvermögen und Betriebsvermögen).",Tabelle 1 · Haftung
+F3 - OHG,gewinn,OHG — Gewinnverteilung,Nach Beteiligungsverhältnissen.,Tabelle 1 · Gewinnverteilung
+F4 - KG,merkmale,"KG — Allgemeine Merkmale, Gesetzesgrundlage",Personengesellschaft; § 161 HGB.,"Tabelle 1 · Allgemeine Merkmale, Gesetzesgrundlage"
+F4 - KG,gruendung,KG — Gründung,Formfrei; mindestens 2 Personen; Gesellschaftsvertrag.,Tabelle 1 · Gründung
+F4 - KG,kapital,KG — Mindestkapital,Kein Mindestkapital; es gibt Vollhafter und Teilhafter (Einlage).,Tabelle 1 · Mindestkapital
+F4 - KG,geschaeftsfuehrung,KG — Geschäftsführung (Innenverhältnis),"Vollhafter wie OHG; Teilhafter nicht, aber Widerspruchsrecht (Gesellschafterversammlung).",Tabelle 1 · Geschäftsführung (Innenverhältnis)
+F4 - KG,vertretung,KG — Vertretung (Außenverhältnis),Einzelvertretung der Vollhafter (Komplementäre).,Tabelle 1 · Vertretung (Außenverhältnis)
+F4 - KG,register,"KG — Legitimation, Firma und Registereintragung",HRA; PA; Zusatz: KG.,"Tabelle 1 · Legitimation, Firma und Registereintragung"
+F4 - KG,organe,KG — Organe,Vollhafter (Komplementäre); Teilhafter (Kommanditisten).,Tabelle 1 · Organe
+F4 - KG,haftung,KG — Haftung,Vollhafter wie OHG; Teilhafter mit Einlage.,Tabelle 1 · Haftung
+F4 - KG,gewinn,KG — Gewinnverteilung,Nach Beteiligungsverhältnissen.,Tabelle 1 · Gewinnverteilung
+F5 - PartG,merkmale,"PartG — Allgemeine Merkmale, Gesetzesgrundlage",Für Freiberufler (auch KG / OHG / GmbH & Co. KG möglich bei passendem Berufsrecht); kein Handelsgewerbe laut HGB; PartGG.,"Tabelle 1 · Allgemeine Merkmale, Gesetzesgrundlage"
+F5 - PartG,gruendung,PartG — Gründung,Mindestens 2 Freiberufler; Gesellschaftsvertrag.,Tabelle 1 · Gründung
+F5 - PartG,kapital,PartG — Mindestkapital,Kein Mindestkapital.,Tabelle 1 · Mindestkapital
+F5 - PartG,geschaeftsfuehrung,PartG — Geschäftsführung (Innenverhältnis),Einzeln oder laut Vertrag.,Tabelle 1 · Geschäftsführung (Innenverhältnis)
+F5 - PartG,vertretung,PartG — Vertretung (Außenverhältnis),Einzelvertretung oder laut Vertrag.,Tabelle 1 · Vertretung (Außenverhältnis)
+F5 - PartG,register,"PartG — Legitimation, Firma und Registereintragung",PartnR; PA; Zusatz: und Partner.,"Tabelle 1 · Legitimation, Firma und Registereintragung"
+F5 - PartG,organe,PartG — Organe,Partner.,Tabelle 1 · Organe
+F5 - PartG,haftung,PartG — Haftung,Persönlich; gesamtschuldnerisch; Ausnahmen.,Tabelle 1 · Haftung
+F5 - PartG,gewinn,PartG — Gewinnverteilung,Gleiche Anteile oder laut Vertrag.,Tabelle 1 · Gewinnverteilung
+F6 - e. V.,merkmale,"e. V. — Allgemeine Merkmale, Gesetzesgrundlage",In der Regel nicht für wirtschaftliche Zwecke (Ausnahmen); BGB.,"Tabelle 1 · Allgemeine Merkmale, Gesetzesgrundlage"
+F6 - e. V.,gruendung,e. V. — Gründung,7 Personen; Vereinssatzung.,Tabelle 1 · Gründung
+F6 - e. V.,kapital,e. V. — Mindestkapital,Kein Mindestkapital; Mitgliedsbeiträge.,Tabelle 1 · Mindestkapital
+F6 - e. V.,geschaeftsfuehrung,e. V. — Geschäftsführung (Innenverhältnis),Vorstand.,Tabelle 1 · Geschäftsführung (Innenverhältnis)
+F6 - e. V.,vertretung,e. V. — Vertretung (Außenverhältnis),Vorstand; Gesamtvertretung.,Tabelle 1 · Vertretung (Außenverhältnis)
+F6 - e. V.,register,"e. V. — Legitimation, Firma und Registereintragung",Vereinsregister; PA; Zusatz: e. V.,"Tabelle 1 · Legitimation, Firma und Registereintragung"
+F6 - e. V.,organe,e. V. — Organe,Vorstand.,Tabelle 1 · Organe
+F6 - e. V.,haftung,e. V. — Haftung,Vereinsvermögen.,Tabelle 1 · Haftung
+F6 - e. V.,gewinn,e. V. — Gewinnverteilung,In der Regel fällt kein Gewinn an.,Tabelle 1 · Gewinnverteilung
+F7 - GmbH,merkmale,"GmbH — Allgemeine Merkmale, Gesetzesgrundlage",Kapitalgesellschaft; GmbHG.,"Tabelle 2 · Allgemeine Merkmale, Gesetzesgrundlage"
+F7 - GmbH,gruendung,GmbH — Gründung,Mindestens 1 Person; notariell beurkundeter Gesellschaftsvertrag; HRB; konstitutive Wirkung der Handelsregistereintragung.,Tabelle 2 · Gründung
+F7 - GmbH,kapital,GmbH — Mindestkapital,25.000 €; Mindesteinzahlung 12.500 €.,Tabelle 2 · Mindestkapital
+F7 - GmbH,geschaeftsfuehrung,GmbH — Geschäftsführung (Innenverhältnis),Geschäftsführer; gesamt.,Tabelle 2 · Geschäftsführung (Innenverhältnis)
+F7 - GmbH,vertretung,GmbH — Vertretung (Außenverhältnis),Geschäftsführer; Gesamtvertretung.,Tabelle 2 · Vertretung (Außenverhältnis)
+F7 - GmbH,register,"GmbH — Legitimation, Firma und Registereintragung",HRB; PA; Zusatz: GmbH.,"Tabelle 2 · Legitimation, Firma und Registereintragung"
+F7 - GmbH,organe,GmbH — Organe,Geschäftsführer; Aufsichtsrat; Gesellschafterversammlung.,Tabelle 2 · Organe
+F7 - GmbH,haftung,GmbH — Haftung,Gesellschaftsvermögen.,Tabelle 2 · Haftung
+F7 - GmbH,gewinn,GmbH — Gewinnverteilung,Nach Kapitalbeteiligung.,Tabelle 2 · Gewinnverteilung
+F8 - AG,merkmale,"AG — Allgemeine Merkmale, Gesetzesgrundlage",Kapitalgesellschaft; AktG.,"Tabelle 2 · Allgemeine Merkmale, Gesetzesgrundlage"
+F8 - AG,gruendung,AG — Gründung,Mindestens 1 Person; notariell beurkundeter Gesellschaftsvertrag; HRB; konstitutive Wirkung der Handelsregistereintragung.,Tabelle 2 · Gründung
+F8 - AG,kapital,AG — Mindestkapital,"50.000 €; Nennwert pro Aktie mindestens 1,00 €.",Tabelle 2 · Mindestkapital
+F8 - AG,geschaeftsfuehrung,AG — Geschäftsführung (Innenverhältnis),Vorstand; gesamt.,Tabelle 2 · Geschäftsführung (Innenverhältnis)
+F8 - AG,vertretung,AG — Vertretung (Außenverhältnis),Vorstand; Gesamtvertretung.,Tabelle 2 · Vertretung (Außenverhältnis)
+F8 - AG,register,"AG — Legitimation, Firma und Registereintragung",HRB; PA; Zusatz: AG.,"Tabelle 2 · Legitimation, Firma und Registereintragung"
+F8 - AG,organe,AG — Organe,Vorstand; Aufsichtsrat; Hauptversammlung.,Tabelle 2 · Organe
+F8 - AG,haftung,AG — Haftung,Gesellschaftsvermögen.,Tabelle 2 · Haftung
+F8 - AG,gewinn,AG — Gewinnverteilung,Nach Kapitalbeteiligung.,Tabelle 2 · Gewinnverteilung
+F9 - UG (haftungsbeschränkt),merkmale,"UG (haftungsbeschränkt) — Allgemeine Merkmale, Gesetzesgrundlage",Kapitalgesellschaft; Mini-GmbH; GmbHG.,"Tabelle 2 · Allgemeine Merkmale, Gesetzesgrundlage"
+F9 - UG (haftungsbeschränkt),gruendung,UG (haftungsbeschränkt) — Gründung,Mindestens 1 Person; Mustersatzung.,Tabelle 2 · Gründung
+F9 - UG (haftungsbeschränkt),kapital,UG (haftungsbeschränkt) — Mindestkapital,"1,00 €.",Tabelle 2 · Mindestkapital
+F9 - UG (haftungsbeschränkt),geschaeftsfuehrung,UG (haftungsbeschränkt) — Geschäftsführung (Innenverhältnis),Wie GmbH: Geschäftsführer; gesamt.,Tabelle 2 · Geschäftsführung (Innenverhältnis)
+F9 - UG (haftungsbeschränkt),vertretung,UG (haftungsbeschränkt) — Vertretung (Außenverhältnis),Wie GmbH: Geschäftsführer; Gesamtvertretung.,Tabelle 2 · Vertretung (Außenverhältnis)
+F9 - UG (haftungsbeschränkt),register,"UG (haftungsbeschränkt) — Legitimation, Firma und Registereintragung",HRB; PA; Zusatz: UG haftungsbeschränkt.,"Tabelle 2 · Legitimation, Firma und Registereintragung"
+F9 - UG (haftungsbeschränkt),organe,UG (haftungsbeschränkt) — Organe,Gesellschafter; Geschäftsführer.,Tabelle 2 · Organe
+F9 - UG (haftungsbeschränkt),haftung,UG (haftungsbeschränkt) — Haftung,Gesellschaftsvermögen.,Tabelle 2 · Haftung
+F9 - UG (haftungsbeschränkt),gewinn,UG (haftungsbeschränkt) — Gewinnverteilung,"Nach Kapitalbeteiligung; Einbehalt 25 % vom Gewinn, bis 25.000,00 € Stammkapital erreicht.",Tabelle 2 · Gewinnverteilung
+F10 - SE,merkmale,"SE — Allgemeine Merkmale, Gesetzesgrundlage","Kapitalgesellschaft; Europäische AG, in mindestens 2 EU-Ländern tätig.","Tabelle 2 · Allgemeine Merkmale, Gesetzesgrundlage"
+F10 - SE,gruendung,SE — Gründung,"Zum Beispiel mindestens 2 Gesellschaften, die verschmelzen.",Tabelle 2 · Gründung
+F10 - SE,kapital,SE — Mindestkapital,120.000 €.,Tabelle 2 · Mindestkapital
+F10 - SE,geschaeftsfuehrung,SE — Geschäftsführung (Innenverhältnis),Zum Beispiel Verwaltungsrat / je nach System.,Tabelle 2 · Geschäftsführung (Innenverhältnis)
+F10 - SE,vertretung,SE — Vertretung (Außenverhältnis),Zum Beispiel Verwaltungsrat / je nach System.,Tabelle 2 · Vertretung (Außenverhältnis)
+F10 - SE,register,"SE — Legitimation, Firma und Registereintragung",HRB; PA; Zusatz: SE.,"Tabelle 2 · Legitimation, Firma und Registereintragung"
+F10 - SE,organe,SE — Organe,Hauptversammlung; Verwaltungsrat.,Tabelle 2 · Organe
+F10 - SE,haftung,SE — Haftung,Gesellschaftsvermögen.,Tabelle 2 · Haftung
+F10 - SE,gewinn,SE — Gewinnverteilung,Nach Kapitalbeteiligung.,Tabelle 2 · Gewinnverteilung
+F11 - GmbH & Co. KG,merkmale,"GmbH & Co. KG — Allgemeine Merkmale, Gesetzesgrundlage",Mischform; rechtlich KG; Vollhafter: GmbH.,"Tabelle 2 · Allgemeine Merkmale, Gesetzesgrundlage"
+F11 - GmbH & Co. KG,gruendung,GmbH & Co. KG — Gründung,Vollhafter GmbH; Teilhafter.,Tabelle 2 · Gründung
+F11 - GmbH & Co. KG,kapital,GmbH & Co. KG — Mindestkapital,GmbH: 25.000 €.,Tabelle 2 · Mindestkapital
+F11 - GmbH & Co. KG,geschaeftsfuehrung,GmbH & Co. KG — Geschäftsführung (Innenverhältnis),Geschäftsführer der GmbH; gesamt (Gesellschafterversammlung).,Tabelle 2 · Geschäftsführung (Innenverhältnis)
+F11 - GmbH & Co. KG,vertretung,GmbH & Co. KG — Vertretung (Außenverhältnis),Geschäftsführer der GmbH; gesamt.,Tabelle 2 · Vertretung (Außenverhältnis)
+F11 - GmbH & Co. KG,register,"GmbH & Co. KG — Legitimation, Firma und Registereintragung",GmbH: HRB; KG: HRA; PA; Zusatz: GmbH u. Co. KG.,"Tabelle 2 · Legitimation, Firma und Registereintragung"
+F11 - GmbH & Co. KG,organe,GmbH & Co. KG — Organe,KG: Vollhafter / Teilhafter. Vollhafter GmbH: wie GmbH — Geschäftsführer; Aufsichtsrat; Gesellschafterversammlung.,Tabelle 2 · Organe
+F11 - GmbH & Co. KG,haftung,GmbH & Co. KG — Haftung,GmbH: mit Gesellschaftsvermögen; Teilhafter: mit Einlage.,Tabelle 2 · Haftung
+F11 - GmbH & Co. KG,gewinn,GmbH & Co. KG — Gewinnverteilung,Wie KG: nach Beteiligungsverhältnissen.,Tabelle 2 · Gewinnverteilung
+F12 - KGaA,merkmale,"KGaA — Allgemeine Merkmale, Gesetzesgrundlage",Mischform; rechtlich Kapitalgesellschaft.,"Tabelle 2 · Allgemeine Merkmale, Gesetzesgrundlage"
+F12 - KGaA,gruendung,KGaA — Gründung,Formfrei; mindestens 2; Teilhafter haben Aktienanteile.,Tabelle 2 · Gründung
+F12 - KGaA,kapital,KGaA — Mindestkapital,50.000 €.,Tabelle 2 · Mindestkapital
+F12 - KGaA,geschaeftsfuehrung,KGaA — Geschäftsführung (Innenverhältnis),Komplementäre allein.,Tabelle 2 · Geschäftsführung (Innenverhältnis)
+F12 - KGaA,vertretung,KGaA — Vertretung (Außenverhältnis),Komplementäre allein.,Tabelle 2 · Vertretung (Außenverhältnis)
+F12 - KGaA,register,"KGaA — Legitimation, Firma und Registereintragung",HRB; PA; Zusatz: KGaA.,"Tabelle 2 · Legitimation, Firma und Registereintragung"
+F12 - KGaA,organe,KGaA — Organe,Vollhafter; Teilhafter; Aufsichtsrat; Hauptversammlung.,Tabelle 2 · Organe
+F12 - KGaA,haftung,KGaA — Haftung,Komplementäre: voll; Teilhafter: mit Aktienanteilen.,Tabelle 2 · Haftung
+F12 - KGaA,gewinn,KGaA — Gewinnverteilung,Wie KG: nach Beteiligungsverhältnissen.,Tabelle 2 · Gewinnverteilung
+F13 - eG,merkmale,"eG — Allgemeine Merkmale, Gesetzesgrundlage",Förderung der Mitglieder; GenG.,"Tabelle 2 · Allgemeine Merkmale, Gesetzesgrundlage"
+F13 - eG,gruendung,eG — Gründung,Mindestens 3 Personen; Satzung.,Tabelle 2 · Gründung
+F13 - eG,kapital,eG — Mindestkapital,Kein Mindestkapital.,Tabelle 2 · Mindestkapital
+F13 - eG,geschaeftsfuehrung,eG — Geschäftsführung (Innenverhältnis),Vorstand; gesamt.,Tabelle 2 · Geschäftsführung (Innenverhältnis)
+F13 - eG,vertretung,eG — Vertretung (Außenverhältnis),Vorstand; gesamt.,Tabelle 2 · Vertretung (Außenverhältnis)
+F13 - eG,register,"eG — Legitimation, Firma und Registereintragung",Genossenschaftsregister (GenR); Zusatz: e. G.,"Tabelle 2 · Legitimation, Firma und Registereintragung"
+F13 - eG,organe,eG — Organe,Vorstand; Aufsichtsrat; Mitgliederversammlung.,Tabelle 2 · Organe
+F13 - eG,haftung,eG — Haftung,Gesellschaftsvermögen.,Tabelle 2 · Haftung
+F13 - eG,gewinn,eG — Gewinnverteilung,Im Verhältnis der Geschäftsguthaben.,Tabelle 2 · Gewinnverteilung
