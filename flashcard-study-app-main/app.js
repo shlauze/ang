@@ -626,20 +626,33 @@ const IMPL = {
     show() {
       const c = CARDS[G.ids[G.i]];
       G.flipped = false;
-      const defFirst = false; // The form + criterion uniquely identify the question.
-      const termFace = back => `<div class="sheet face ${back ? "back" : "front"}">${topLine(c)}<div class="face-term"><span><span class="hl">${fmt(c.t)}</span></span></div>${back && c.x ? `<p class="ex"><b>Note</b>${fmt(c.x)}</p>` : ""}</div>`;
-      const defFace = back => `<div class="sheet face ${back ? "back" : "front"}">${topLine(c)}<div class="face-def">${back ? `<p class="def-term"><span class="hl">${fmt(c.t)}</span></p>` : ""}<p>${fmt(back ? c.d : mask(c.d, c))}</p>${back && c.x ? `<p class="ex"><b>Note</b>${fmt(c.x)}</p>` : ""}</div></div>`;
-      stage.innerHTML = `<div class="scene"><button class="flip" id="flip" style="--c:${MODC[c.m]}" aria-label="Flip card">${defFirst ? defFace(false) + termFace(true) : termFace(false) + defFace(true)}</button></div>
-        <div class="cluster cardtools">${starBtn(c.id, true)}<p class="hint">${defFirst ? "Name the term" : "Recall the definition"} · click the card or Space to flip · 1 study again · 2 got it · S star</p></div>
+      stage.innerHTML = `<div class="scene"><button type="button" class="flip" id="flip" style="--c:${MODC[c.m]}" aria-label="Show answer" aria-pressed="false"></button></div>
+        <div class="cluster cardtools">${starBtn(c.id, true)}<p class="hint"><span class="touch-hint">Tap the card to reveal the answer, then grade yourself.</span><span class="keyboard-hint">Click the card or Space to flip · 1 study again · 2 got it · S star</span></p></div>
         <div class="grade" id="grade"><button class="btn btn--tint" style="--c:var(--sakura)" data-g="m" disabled>Study again<kbd>1</kbd></button><button class="btn btn--tint" style="--c:var(--matcha)" data-g="k" disabled>Got it<kbd>2</kbd></button></div>`;
+      this.renderFace();
       $("flip").onclick = () => this.flip();
       $("grade").onclick = e => { const b = e.target.closest("[data-g]"); if (b) this.grade(b.dataset.g); };
       if (G.D.think) startTimer(G.D.think, () => { if (!G.flipped) this.flip(); }); else hideTimer();
       renderBar();
     },
+    renderFace() {
+      const c = CARDS[G.ids[G.i]], button = $("flip");
+      // One natural-height surface avoids overlapping 3D button faces in iOS WebKit.
+      button.innerHTML = `<span class="sheet face" data-face="${G.flipped ? "answer" : "question"}">
+        <span class="tape tape--top" aria-hidden="true"></span>
+        <span class="face-top">${esc(c.m)} · ${esc(MODS[c.m])}</span>
+        <span class="face-body">${G.flipped
+          ? `<span class="face-def"><span class="def-term"><span class="hl">${fmt(c.t)}</span></span><span class="answer-text">${fmt(c.d)}</span>${c.x ? `<span class="ex"><b>Note</b>${fmt(c.x)}</span>` : ""}</span>`
+          : `<span class="face-term"><span class="hl">${fmt(c.t)}</span></span>`}</span>
+        <span class="flip-cue">${G.flipped ? "Tap to show question" : "Tap to reveal answer"}</span>
+      </span>`;
+      button.setAttribute("aria-pressed", String(G.flipped));
+      button.setAttribute("aria-label", G.flipped ? "Show question" : "Show answer");
+    },
     flip() {
+      if (!G || G.over || G.paused) return;
       G.flipped = !G.flipped;
-      $("flip").classList.toggle("flipped", G.flipped);
+      this.renderFace();
       $("grade").querySelectorAll("button").forEach(b => b.disabled = !G.flipped);
       if (G.flipped) stopTimer();
     },
