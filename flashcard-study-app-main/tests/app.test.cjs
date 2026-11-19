@@ -139,3 +139,40 @@ test('Server-mode progress save uses the expected API contract (mocked, no netwo
  assert.equal(Object.values(JSON.parse(writes[0].options.body).marks)[0],'k');
  assert.equal(h.run('saveStatus'),'saved');h.close();
 });
+
+test('Every flashcard renders one complete, accessible face, including the reported long F11 title',async()=>{
+ const h=await setup();
+ h.run('startGame({mode:"cards",diff:"easy",ids:CARDS.map(c=>c.id)})');
+ let foundReportedCard=false;
+ for(let i=0;i<117;i++){
+  const card=h.run('CARDS[G.ids[G.i]]'), button=h.w.document.querySelector('#flip');
+  if(card.t.includes('GmbH & Co. KG') && card.t.includes('Außenverhältnis'))foundReportedCard=true;
+  assert.equal(button.querySelectorAll('.face').length,1);
+  assert.equal(button.querySelector('.face').dataset.face,'question');
+  assert.equal(button.getAttribute('aria-pressed'),'false');
+  assert.equal(button.getAttribute('aria-label'),'Show answer');
+  assert.equal(button.querySelector('.face-term').textContent,card.t);
+  assert.equal(button.querySelectorAll('div,p,button,a').length,0,'Button has phrasing content only');
+  assert.ok(!button.querySelector('.answer-text'),'Answer must not leak behind the front face');
+  h.click('#flip');
+  assert.equal(button.querySelectorAll('.face').length,1);
+  assert.equal(button.querySelector('.face').dataset.face,'answer');
+  assert.equal(button.getAttribute('aria-label'),'Show question');
+  assert.equal(button.querySelector('.answer-text').textContent,card.d);
+  assert.equal(button.querySelector('.def-term').textContent,card.t);
+  assert.equal(button.querySelectorAll('div,p,button,a').length,0);
+  h.click('#flip');
+  assert.equal(button.querySelector('.face').dataset.face,'question');
+  assert.equal(h.w.document.querySelector('[data-g="k"]').disabled,true);
+  h.click('#flip');h.click('[data-g="k"]');
+ }
+ assert.ok(foundReportedCard);assert.equal(h.run('G.over'),true);assert.equal(h.errors.length,0);h.close();
+});
+
+test('Touch actions cannot change a paused card or double-grade the next card',async()=>{
+ const h=await setup();h.start('cards');
+ h.click('#pauseBtn');h.run('IMPL.cards.flip()');assert.equal(h.run('G.flipped'),false);
+ h.click('#resume');h.click('#flip');h.click('[data-g="k"]');
+ const i=h.run('G.i');h.click('[data-g="k"]');assert.equal(h.run('G.i'),i);
+ h.close();
+});

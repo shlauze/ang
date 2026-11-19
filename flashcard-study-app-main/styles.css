@@ -342,17 +342,20 @@ textarea.field { width: 100%; min-height: 110px; border-radius: 10px; font: 12px
 .grade .btn { padding: var(--s3); font-size: 15px; }
 .tf .btn { padding: 14px; font-size: 17px; }
 
-/* flashcard flip */
-.scene { perspective: 1600px; }
-.flip { display: grid; width: 100%; border: 0; padding: 0; background: none; cursor: pointer; transform-style: preserve-3d; transition: transform .5s cubic-bezier(.2,.7,.2,1); text-align: left; }
-.flip.flipped { transform: rotateY(180deg); }
-.face { grid-area: 1 / 1; backface-visibility: hidden; -webkit-backface-visibility: hidden; min-height: 300px; display: flex; flex-direction: column; }
-.face.back { transform: rotateY(180deg); }
-.face-term { flex: 1; display: grid; place-items: center; text-align: center; font: 800 clamp(24px, 4.6vw, 34px)/1.3 var(--f-display); overflow-wrap: anywhere; padding: var(--s2) 0; }
-.face-def { flex: 1; display: grid; align-content: center; gap: var(--s3); font-size: 17.5px; line-height: 1.7; }
-.face-def p { margin: 0; }
-.def-term { font: 800 19px var(--f-display); }
+/* Flashcards use a single natural-height surface, including inside iOS buttons. */
+.scene { min-width: 0; }
+.flip { display: block; width: 100%; min-width: 0; margin: 0; border: 0; padding: 0; background: none; cursor: pointer; text-align: left; appearance: none; -webkit-appearance: none; }
+.face { display: block; width: 100%; min-width: 0; }
+.face-top { display: block; }
+.face-body { display: flex; flex-direction: column; justify-content: center; min-height: 200px; padding-block: 20px; }
+.face-term { display: block; text-align: center; font: 800 clamp(22px, 4vw, 30px)/1.4 var(--f-display); overflow-wrap: anywhere; hyphens: auto; }
+.face-def { display: block; font-size: 17px; line-height: 1.65; overflow-wrap: anywhere; hyphens: auto; }
+.face-def > span { display: block; }
+.face-def > span + span { margin-top: 16px; }
+.def-term { font: 800 19px/1.45 var(--f-display); }
+.flip-cue { display: block; text-align: center; font-size: 14px; color: var(--muted); padding-top: 8px; }
 .cardtools { justify-content: space-between; --gap: var(--s2) 14px; }
+.touch-hint { display: none; }
 
 /* multiple choice */
 .q-ask { font: 800 13px var(--f-display); color: var(--muted); margin-bottom: 6px; }
@@ -426,7 +429,6 @@ textarea.field { width: 100%; min-height: 110px; border-radius: 10px; font: 12px
   .modes .mode { grid-column: auto; grid-row: auto; }
 }
 @media (max-width: 560px) {
-  .mgrid { grid-template-columns: minmax(0, 1fr); }
   .row { grid-template-columns: minmax(0, 1fr) auto; }
   .row .rd { grid-column: 1 / -1; }
   .sheet { padding: 22px 18px 20px; }
@@ -479,3 +481,77 @@ button:disabled { cursor: default; }
 }
 
 .tile-criterion { display: block; font-size: 12px; font-weight: 700; color: var(--muted); margin-bottom: 6px; }
+
+/* Phone/tablet ergonomics; content grows vertically instead of escaping its card. */
+html { -webkit-text-size-adjust: 100%; }
+.app, #stage, .screen-game, .screen-results, .menu > *, .mcol { min-width: 0; }
+button, input, select, textarea { touch-action: manipulation; }
+.face-top, .q-term, .sp-term, .mrow, .row .rd { overflow-wrap: anywhere; }
+.hl { -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.overlay { overflow-y: auto; }
+.overlay .sheet { max-height: calc(100dvh - 32px); overflow-y: auto; }
+
+@media (max-width: 600px) {
+  .app { padding: 12px max(12px, env(safe-area-inset-right)) calc(28px + env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left)); }
+  .top { margin-bottom: 14px; }
+  .hero h1 { font-size: clamp(25px, 7vw, 36px); }
+  .hero .subject { font-size: 16px; }
+  .hero-links { justify-content: flex-start; }
+  .modes { gap: 16px 12px; padding: 22px 12px 18px; }
+  .modes .mode { transform: none; padding: 19px 12px 12px; }
+  .mode .name { font-size: 16px; overflow-wrap: anywhere; }
+  .mode .ico { grid-row: 1; }
+  .mode .desc { line-height: 1.5; }
+  .btn, .seg button, .choice, .star, .tab { min-height: 44px; }
+  .iconbtn { width: 44px; height: 44px; }
+  .field, .tagsel, .tagnew { min-height: 44px; font-size: 16px; }
+  .field { max-width: 100%; }
+  .pchip { max-width: 100%; border-radius: 20px; }
+  .pchip .pm { flex: 0 0 36px; min-height: 44px; }
+  .pchip .pl { min-width: 0; min-height: 44px; text-align: left; overflow-wrap: anywhere; }
+  .pchip .n { flex-shrink: 0; }
+  .fold > summary { flex-wrap: wrap; }
+  .gamebar { border-radius: 18px; gap: 8px; padding: 8px; }
+  .gamebar .gprog { order: 5; flex-basis: 100%; padding-left: 4px; }
+  .gamebar .gscore { margin-left: auto; }
+  .gamebar .gspacer { display: none; }
+  .gamebar .badge { font-size: 12px; padding: 4px 8px; }
+  .sheet { padding: 20px 16px; }
+  .face .face-top { padding-right: 0; font-size: 13px; }
+  .face-body { min-height: 160px; padding-block: 20px; }
+  .face-term { font-size: clamp(20px, 5.6vw, 27px); }
+  .face-def { font-size: 16px; }
+  .def-term { font-size: 18px; }
+  .face .ex { font-size: 14px; }
+  .cardtools { align-items: flex-start; }
+  .cardtools .hint { flex-basis: 100%; }
+  .touch-hint { display: inline; }
+  .keyboard-hint, kbd { display: none; }
+  .grade, .tf { gap: 10px; }
+  .grade .btn, .tf .btn { min-height: 52px; padding: 12px 8px; }
+  .mgrid { align-items: start; }
+  .tile, .tile.term { font-size: 14px; line-height: 1.5; hyphens: auto; }
+  .q-term, .sp-term { font-size: 21px; }
+  .opt { font-size: 16px; gap: 10px; }
+  .speed .face-top { padding-left: 0; padding-right: 44px; }
+  .speed .star--corner { top: 10px; right: 10px; }
+  .ractions { width: 100%; }
+  .ractions > .btn { width: 100%; }
+  .results { padding-top: 24px; }
+  .hanko { position: relative; inset: auto; margin: 0 auto 8px; }
+  .tagmgr { padding-inline: 10px; }
+  .tagx { min-width: 28px; min-height: 32px; }
+  .rtags .badge { max-width: 100%; overflow-wrap: anywhere; }
+  .mod h3 { flex-wrap: wrap; }
+}
+@media (max-width: 360px) {
+  .mode .ico { display: none; }
+  .mode .name { grid-column: 1 / -1; }
+  .seg button { padding-inline: 12px; }
+  .mgrid { gap: 6px; }
+  .tile { padding: 8px; }
+}
+@media (pointer: coarse) {
+  .keyboard-hint, kbd { display: none; }
+  .touch-hint { display: inline; }
+}
