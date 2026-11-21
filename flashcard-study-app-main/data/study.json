@@ -1,0 +1,1295 @@
+{
+  "title": "Unternehmensformen im Überblick – Grundlage für die Eröffnung von Firmenkonten",
+  "criteria": [
+    {
+      "id": "merkmale",
+      "label": "Allgemeine Merkmale, Gesetzesgrundlage"
+    },
+    {
+      "id": "gruendung",
+      "label": "Gründung"
+    },
+    {
+      "id": "kapital",
+      "label": "Mindestkapital"
+    },
+    {
+      "id": "geschaeftsfuehrung",
+      "label": "Geschäftsführung (Innenverhältnis)"
+    },
+    {
+      "id": "vertretung",
+      "label": "Vertretung (Außenverhältnis)"
+    },
+    {
+      "id": "register",
+      "label": "Legitimation, Firma und Registereintragung"
+    },
+    {
+      "id": "organe",
+      "label": "Organe"
+    },
+    {
+      "id": "haftung",
+      "label": "Haftung"
+    },
+    {
+      "id": "gewinn",
+      "label": "Gewinnverteilung"
+    }
+  ],
+  "forms": [
+    {
+      "id": "F1",
+      "name": "Einzelunternehmen",
+      "table": 1
+    },
+    {
+      "id": "F2",
+      "name": "GbR",
+      "table": 1
+    },
+    {
+      "id": "F3",
+      "name": "OHG",
+      "table": 1
+    },
+    {
+      "id": "F4",
+      "name": "KG",
+      "table": 1
+    },
+    {
+      "id": "F5",
+      "name": "PartG",
+      "table": 1
+    },
+    {
+      "id": "F6",
+      "name": "e. V.",
+      "table": 1
+    },
+    {
+      "id": "F7",
+      "name": "GmbH",
+      "table": 2
+    },
+    {
+      "id": "F8",
+      "name": "AG",
+      "table": 2
+    },
+    {
+      "id": "F9",
+      "name": "UG (haftungsbeschränkt)",
+      "table": 2
+    },
+    {
+      "id": "F10",
+      "name": "SE",
+      "table": 2
+    },
+    {
+      "id": "F11",
+      "name": "GmbH & Co. KG",
+      "table": 2
+    },
+    {
+      "id": "F12",
+      "name": "KGaA",
+      "table": 2
+    },
+    {
+      "id": "F13",
+      "name": "eG",
+      "table": 2
+    }
+  ],
+  "cards": [
+    {
+      "id": "F1-merkmale",
+      "form": "F1",
+      "criterion": "merkmale",
+      "question": "Einzelunternehmen — Allgemeine Merkmale, Gesetzesgrundlage",
+      "answer": "Kleingewerbetreibende oder Kaufleute nach HGB; HGB, BGB.",
+      "original": "Kleingewerbetreibende oder Kaufleute nach HGB; HGB, BGB.",
+      "table": 1,
+      "group": "kleingewerbetreibende oder kaufleute nach hgb; hgb, bgb"
+    },
+    {
+      "id": "F1-gruendung",
+      "form": "F1",
+      "criterion": "gruendung",
+      "question": "Einzelunternehmen — Gründung",
+      "answer": "Formfrei; 1 Person.",
+      "original": "Formfrei; 1 Person.",
+      "table": 1,
+      "group": "formfrei; 1 person"
+    },
+    {
+      "id": "F1-kapital",
+      "form": "F1",
+      "criterion": "kapital",
+      "question": "Einzelunternehmen — Mindestkapital",
+      "answer": "Kein Mindestkapital.",
+      "original": "Kein Mindestkapital.",
+      "table": 1,
+      "group": "kapital-equivalent-0"
+    },
+    {
+      "id": "F1-geschaeftsfuehrung",
+      "form": "F1",
+      "criterion": "geschaeftsfuehrung",
+      "question": "Einzelunternehmen — Geschäftsführung (Innenverhältnis)",
+      "answer": "Inhaber allein.",
+      "original": "Inhaber allein.",
+      "table": 1,
+      "group": "inhaber allein"
+    },
+    {
+      "id": "F1-vertretung",
+      "form": "F1",
+      "criterion": "vertretung",
+      "question": "Einzelunternehmen — Vertretung (Außenverhältnis)",
+      "answer": "Inhaber allein.",
+      "original": "Inhaber allein.",
+      "table": 1,
+      "group": "inhaber allein"
+    },
+    {
+      "id": "F1-register",
+      "form": "F1",
+      "criterion": "register",
+      "question": "Einzelunternehmen — Legitimation, Firma und Registereintragung",
+      "answer": "Bei e. K.: PA und HRA.",
+      "original": "Bei e. K.: PA und HRA.",
+      "table": 1,
+      "group": "bei e. k.: pa und hra"
+    },
+    {
+      "id": "F1-organe",
+      "form": "F1",
+      "criterion": "organe",
+      "question": "Einzelunternehmen — Organe",
+      "answer": "Einzelunternehmer.",
+      "original": "Einzelunternehmer.",
+      "table": 1,
+      "group": "einzelunternehmer"
+    },
+    {
+      "id": "F1-haftung",
+      "form": "F1",
+      "criterion": "haftung",
+      "question": "Einzelunternehmen — Haftung",
+      "answer": "Mit Betriebsvermögen und Privatvermögen; unbeschränkt.",
+      "original": "Mit Betriebsvermögen und Privatvermögen; unbeschränkt.",
+      "table": 1,
+      "group": "haftung-equivalent-0"
+    },
+    {
+      "id": "F1-gewinn",
+      "form": "F1",
+      "criterion": "gewinn",
+      "question": "Einzelunternehmen — Gewinnverteilung",
+      "answer": "Den gesamten Gewinn und Verlust trägt der Einzelunternehmer allein.",
+      "original": "Den gesamten Gewinn und Verlust trägt der Einzelunternehmer allein.",
+      "table": 1,
+      "group": "den gesamten gewinn und verlust trägt der einzelunternehmer allein"
+    },
+    {
+      "id": "F2-merkmale",
+      "form": "F2",
+      "criterion": "merkmale",
+      "question": "GbR — Allgemeine Merkmale, Gesetzesgrundlage",
+      "answer": "Personengesellschaft; private GbR; unternehmerische GbR; BGB; rechtsfähige oder nicht rechtsfähige GbR (unternehmerisch tätig? Am Rechtsverkehr teilnehmend).",
+      "original": "Personengesellschaft; private GbR; unternehmerische GbR; BGB; rechtsfähige oder nicht rechtsfähige GbR (unternehmerisch tätig? Am Rechtsverkehr teilnehmend).",
+      "table": 1,
+      "group": "personengesellschaft; private gbr; unternehmerische gbr; bgb; rechtsfähige oder nicht rechtsfähige gbr (unternehmerisch tätig? am rechtsverkehr teilnehmend)"
+    },
+    {
+      "id": "F2-gruendung",
+      "form": "F2",
+      "criterion": "gruendung",
+      "question": "GbR — Gründung",
+      "answer": "Formfrei; mindestens 2 Personen; § 705 BGB; Gesellschaftsregister bei eGbR (mehr Rechtssicherheit).",
+      "original": "Formfrei; mindestens 2 Personen; § 705 BGB; Gesellschaftsregister bei eGbR (mehr Rechtssicherheit).",
+      "table": 1,
+      "group": "gruendung-equivalent-0"
+    },
+    {
+      "id": "F2-kapital",
+      "form": "F2",
+      "criterion": "kapital",
+      "question": "GbR — Mindestkapital",
+      "answer": "Kein Mindestkapital.",
+      "original": "Kein Mindestkapital.",
+      "table": 1,
+      "group": "kapital-equivalent-0"
+    },
+    {
+      "id": "F2-geschaeftsfuehrung",
+      "form": "F2",
+      "criterion": "geschaeftsfuehrung",
+      "question": "GbR — Geschäftsführung (Innenverhältnis)",
+      "answer": "Gemeinschaftlich durch die Gesellschafter.",
+      "original": "Gemeinschaftlich durch die Gesellschafter.",
+      "table": 1,
+      "group": "gemeinschaftlich durch die gesellschafter"
+    },
+    {
+      "id": "F2-vertretung",
+      "form": "F2",
+      "criterion": "vertretung",
+      "question": "GbR — Vertretung (Außenverhältnis)",
+      "answer": "Gemeinschaftlich.",
+      "original": "Gemeinschaftlich.",
+      "table": 1,
+      "group": "gemeinschaftliche vertretung durch die gesellschafter"
+    },
+    {
+      "id": "F2-register",
+      "form": "F2",
+      "criterion": "register",
+      "question": "GbR — Legitimation, Firma und Registereintragung",
+      "answer": "Kein Handelsregistereintrag; PA.",
+      "original": "Kein Handelsregistereintrag; PA.",
+      "table": 1,
+      "group": "kein handelsregistereintrag; pa. bei egbr: eintragung im gesellschaftsregister"
+    },
+    {
+      "id": "F2-organe",
+      "form": "F2",
+      "criterion": "organe",
+      "question": "GbR — Organe",
+      "answer": "Gesellschafter.",
+      "original": "Gesellschafter.",
+      "table": 1,
+      "group": "organe-equivalent-0"
+    },
+    {
+      "id": "F2-haftung",
+      "form": "F2",
+      "criterion": "haftung",
+      "question": "GbR — Haftung",
+      "answer": "Persönlich, gesamtschuldnerisch, unbeschränkt (Privatvermögen und Betriebsvermögen).",
+      "original": "Persönlich, gesamtschuldnerisch, unbeschränkt (Privatvermögen und Betriebsvermögen).",
+      "table": 1,
+      "group": "haftung-equivalent-0"
+    },
+    {
+      "id": "F2-gewinn",
+      "form": "F2",
+      "criterion": "gewinn",
+      "question": "GbR — Gewinnverteilung",
+      "answer": "§ 722: gleiche Anteile oder per Vertrag.",
+      "original": "§ 722: gleiche Anteile oder per Vertrag.",
+      "table": 1,
+      "group": "profit-sharing"
+    },
+    {
+      "id": "F3-merkmale",
+      "form": "F3",
+      "criterion": "merkmale",
+      "question": "OHG — Allgemeine Merkmale, Gesetzesgrundlage",
+      "answer": "Personengesellschaft; § 105 HGB.",
+      "original": "Personengesellschaft; § 105 HGB.",
+      "table": 1,
+      "group": "personengesellschaft; § 105 hgb"
+    },
+    {
+      "id": "F3-gruendung",
+      "form": "F3",
+      "criterion": "gruendung",
+      "question": "OHG — Gründung",
+      "answer": "Formfrei; mindestens 2 Personen; Gesellschaftsvertrag.",
+      "original": "Formfrei; mindestens 2 Personen; Gesellschaftsvertrag.",
+      "table": 1,
+      "group": "gruendung-equivalent-0"
+    },
+    {
+      "id": "F3-kapital",
+      "form": "F3",
+      "criterion": "kapital",
+      "question": "OHG — Mindestkapital",
+      "answer": "Kein Mindestkapital; Einlage laut Vertrag.",
+      "original": "Kein Mindestkapital; Einlage laut Vertrag.",
+      "table": 1,
+      "group": "kapital-equivalent-0"
+    },
+    {
+      "id": "F3-geschaeftsfuehrung",
+      "form": "F3",
+      "criterion": "geschaeftsfuehrung",
+      "question": "OHG — Geschäftsführung (Innenverhältnis)",
+      "answer": "Einzeln bei gewöhnlichen Geschäften; gemeinsam bei außergewöhnlichen Geschäften (Gesellschafterversammlung).",
+      "original": "Einzeln bei gewöhnlichen Geschäften; gemeinsam bei außergewöhnlichen Geschäften (Gesellschafterversammlung).",
+      "table": 1,
+      "group": "geschaeftsfuehrung-equivalent-2"
+    },
+    {
+      "id": "F3-vertretung",
+      "form": "F3",
+      "criterion": "vertretung",
+      "question": "OHG — Vertretung (Außenverhältnis)",
+      "answer": "Einzelvertretung der Gesellschafter.",
+      "original": "Einzelvertretung der Gesellschafter.",
+      "table": 1,
+      "group": "vertretung-equivalent-0"
+    },
+    {
+      "id": "F3-register",
+      "form": "F3",
+      "criterion": "register",
+      "question": "OHG — Legitimation, Firma und Registereintragung",
+      "answer": "HRA; PA; Zusatz: OHG.",
+      "original": "HRA; PA; Zusatz: OHG.",
+      "table": 1,
+      "group": "hra; pa; zusatz: ohg"
+    },
+    {
+      "id": "F3-organe",
+      "form": "F3",
+      "criterion": "organe",
+      "question": "OHG — Organe",
+      "answer": "Gesellschafter.",
+      "original": "Gesellschafter.",
+      "table": 1,
+      "group": "organe-equivalent-0"
+    },
+    {
+      "id": "F3-haftung",
+      "form": "F3",
+      "criterion": "haftung",
+      "question": "OHG — Haftung",
+      "answer": "Persönlich, gesamtschuldnerisch, unbeschränkt (Privatvermögen und Betriebsvermögen).",
+      "original": "Persönlich, gesamtschuldnerisch, unbeschränkt (Privatvermögen und Betriebsvermögen).",
+      "table": 1,
+      "group": "haftung-equivalent-0"
+    },
+    {
+      "id": "F3-gewinn",
+      "form": "F3",
+      "criterion": "gewinn",
+      "question": "OHG — Gewinnverteilung",
+      "answer": "Nach Beteiligungsverhältnissen.",
+      "original": "Nach Beteiligungsverhältnissen.",
+      "table": 1,
+      "group": "profit-sharing"
+    },
+    {
+      "id": "F4-merkmale",
+      "form": "F4",
+      "criterion": "merkmale",
+      "question": "KG — Allgemeine Merkmale, Gesetzesgrundlage",
+      "answer": "Personengesellschaft; § 161 HGB.",
+      "original": "Personengesellschaft; § 161 HGB.",
+      "table": 1,
+      "group": "kg-family"
+    },
+    {
+      "id": "F4-gruendung",
+      "form": "F4",
+      "criterion": "gruendung",
+      "question": "KG — Gründung",
+      "answer": "Formfrei; mindestens 2 Personen; Gesellschaftsvertrag.",
+      "original": "Formfrei; mindestens 2 Personen; Gesellschaftsvertrag.",
+      "table": 1,
+      "group": "gruendung-equivalent-0"
+    },
+    {
+      "id": "F4-kapital",
+      "form": "F4",
+      "criterion": "kapital",
+      "question": "KG — Mindestkapital",
+      "answer": "Kein Mindestkapital; es gibt Vollhafter und Teilhafter (Einlage).",
+      "original": "Kein Mindestkapital; es gibt Vollhafter und Teilhafter (Einlage).",
+      "table": 1,
+      "group": "kapital-equivalent-0"
+    },
+    {
+      "id": "F4-geschaeftsfuehrung",
+      "form": "F4",
+      "criterion": "geschaeftsfuehrung",
+      "question": "KG — Geschäftsführung (Innenverhältnis)",
+      "answer": "Vollhafter wie OHG; Teilhafter nicht, aber Widerspruchsrecht (Gesellschafterversammlung).",
+      "original": "Vollhafter wie OHG; Teilhafter nicht, aber Widerspruchsrecht (Gesellschafterversammlung).",
+      "table": 1,
+      "group": "geschaeftsfuehrung-equivalent-2"
+    },
+    {
+      "id": "F4-vertretung",
+      "form": "F4",
+      "criterion": "vertretung",
+      "question": "KG — Vertretung (Außenverhältnis)",
+      "answer": "Einzelvertretung der Vollhafter (Komplementäre).",
+      "original": "Einzelvertretung der Vollhafter (Komplementäre).",
+      "table": 1,
+      "group": "vertretung-equivalent-0"
+    },
+    {
+      "id": "F4-register",
+      "form": "F4",
+      "criterion": "register",
+      "question": "KG — Legitimation, Firma und Registereintragung",
+      "answer": "HRA; PA; Zusatz: KG.",
+      "original": "HRA; PA; Zusatz: KG.",
+      "table": 1,
+      "group": "hra; pa; zusatz: kg"
+    },
+    {
+      "id": "F4-organe",
+      "form": "F4",
+      "criterion": "organe",
+      "question": "KG — Organe",
+      "answer": "Vollhafter (Komplementäre); Teilhafter (Kommanditisten).",
+      "original": "Vollhafter (Komplementäre); Teilhafter (Kommanditisten).",
+      "table": 1,
+      "group": "vollhafter (komplementäre); teilhafter (kommanditisten)"
+    },
+    {
+      "id": "F4-haftung",
+      "form": "F4",
+      "criterion": "haftung",
+      "question": "KG — Haftung",
+      "answer": "Vollhafter wie OHG; Teilhafter mit Einlage.",
+      "original": "Vollhafter wie OHG; Teilhafter mit Einlage.",
+      "table": 1,
+      "group": "haftung-equivalent-1"
+    },
+    {
+      "id": "F4-gewinn",
+      "form": "F4",
+      "criterion": "gewinn",
+      "question": "KG — Gewinnverteilung",
+      "answer": "Nach Beteiligungsverhältnissen.",
+      "original": "Nach Beteiligungsverhältnissen.",
+      "table": 1,
+      "group": "profit-sharing"
+    },
+    {
+      "id": "F5-merkmale",
+      "form": "F5",
+      "criterion": "merkmale",
+      "question": "PartG — Allgemeine Merkmale, Gesetzesgrundlage",
+      "answer": "Für Freiberufler (auch KG / OHG / GmbH & Co. KG möglich bei passendem Berufsrecht); kein Handelsgewerbe laut HGB; PartGG.",
+      "original": "Für Freiberufler (auch KG / OHG / GmbH & Co. KG möglich bei passendem Berufsrecht); kein Handelsgewerbe laut HGB; PartGG.",
+      "table": 1,
+      "group": "für freiberufler (auch kg / ohg / gmbh & co. kg möglich bei passendem berufsrecht); kein handelsgewerbe laut hgb; partgg"
+    },
+    {
+      "id": "F5-gruendung",
+      "form": "F5",
+      "criterion": "gruendung",
+      "question": "PartG — Gründung",
+      "answer": "Mindestens 2 Freiberufler; Gesellschaftsvertrag.",
+      "original": "Mindestens 2 Freiberufler; Gesellschaftsvertrag.",
+      "table": 1,
+      "group": "gruendung-equivalent-0"
+    },
+    {
+      "id": "F5-kapital",
+      "form": "F5",
+      "criterion": "kapital",
+      "question": "PartG — Mindestkapital",
+      "answer": "Kein Mindestkapital.",
+      "original": "Kein Mindestkapital.",
+      "table": 1,
+      "group": "kapital-equivalent-0"
+    },
+    {
+      "id": "F5-geschaeftsfuehrung",
+      "form": "F5",
+      "criterion": "geschaeftsfuehrung",
+      "question": "PartG — Geschäftsführung (Innenverhältnis)",
+      "answer": "Einzeln oder laut Vertrag.",
+      "original": "Einzeln oder laut Vertrag.",
+      "table": 1,
+      "group": "geschaeftsfuehrung-equivalent-2"
+    },
+    {
+      "id": "F5-vertretung",
+      "form": "F5",
+      "criterion": "vertretung",
+      "question": "PartG — Vertretung (Außenverhältnis)",
+      "answer": "Einzelvertretung oder laut Vertrag.",
+      "original": "Einzelvertretung oder laut Vertrag.",
+      "table": 1,
+      "group": "vertretung-equivalent-0"
+    },
+    {
+      "id": "F5-register",
+      "form": "F5",
+      "criterion": "register",
+      "question": "PartG — Legitimation, Firma und Registereintragung",
+      "answer": "PartnR; PA; Zusatz: und Partner.",
+      "original": "PartnR; PA; Zusatz: und Partner.",
+      "table": 1,
+      "group": "partnr; pa; zusatz: und partner"
+    },
+    {
+      "id": "F5-organe",
+      "form": "F5",
+      "criterion": "organe",
+      "question": "PartG — Organe",
+      "answer": "Partner.",
+      "original": "Partner.",
+      "table": 1,
+      "group": "organe-equivalent-0"
+    },
+    {
+      "id": "F5-haftung",
+      "form": "F5",
+      "criterion": "haftung",
+      "question": "PartG — Haftung",
+      "answer": "Persönlich; gesamtschuldnerisch; Ausnahmen.",
+      "original": "Persönlich; gesamtschuldnerisch; Ausnahmen.",
+      "table": 1,
+      "group": "haftung-equivalent-0"
+    },
+    {
+      "id": "F5-gewinn",
+      "form": "F5",
+      "criterion": "gewinn",
+      "question": "PartG — Gewinnverteilung",
+      "answer": "Gleiche Anteile oder laut Vertrag.",
+      "original": "Gleiche Anteile oder laut Vertrag.",
+      "table": 1,
+      "group": "profit-sharing"
+    },
+    {
+      "id": "F6-merkmale",
+      "form": "F6",
+      "criterion": "merkmale",
+      "question": "e. V. — Allgemeine Merkmale, Gesetzesgrundlage",
+      "answer": "In der Regel nicht für wirtschaftliche Zwecke (Ausnahmen); BGB.",
+      "original": "In der Regel nicht für wirtschaftliche Zwecke (Ausnahmen); BGB.",
+      "table": 1,
+      "group": "in der regel nicht für wirtschaftliche zwecke (ausnahmen); bgb"
+    },
+    {
+      "id": "F6-gruendung",
+      "form": "F6",
+      "criterion": "gruendung",
+      "question": "e. V. — Gründung",
+      "answer": "7 Personen; Vereinssatzung.",
+      "original": "7 Personen; Vereinssatzung.",
+      "table": 1,
+      "group": "7 personen; vereinssatzung"
+    },
+    {
+      "id": "F6-kapital",
+      "form": "F6",
+      "criterion": "kapital",
+      "question": "e. V. — Mindestkapital",
+      "answer": "Kein Mindestkapital; Mitgliedsbeiträge.",
+      "original": "Kein Mindestkapital; Mitgliedsbeiträge.",
+      "table": 1,
+      "group": "kapital-equivalent-0"
+    },
+    {
+      "id": "F6-geschaeftsfuehrung",
+      "form": "F6",
+      "criterion": "geschaeftsfuehrung",
+      "question": "e. V. — Geschäftsführung (Innenverhältnis)",
+      "answer": "Vorstand.",
+      "original": "Vorstand.",
+      "table": 1,
+      "group": "geschaeftsfuehrung-equivalent-1"
+    },
+    {
+      "id": "F6-vertretung",
+      "form": "F6",
+      "criterion": "vertretung",
+      "question": "e. V. — Vertretung (Außenverhältnis)",
+      "answer": "Vorstand; Gesamtvertretung.",
+      "original": "Vorstand; Gesamtvertretung.",
+      "table": 1,
+      "group": "vertretung-equivalent-2"
+    },
+    {
+      "id": "F6-register",
+      "form": "F6",
+      "criterion": "register",
+      "question": "e. V. — Legitimation, Firma und Registereintragung",
+      "answer": "Vereinsregister; PA; Zusatz: e. V.",
+      "original": "Vereinsregister; PA; Zusatz: e. V.",
+      "table": 1,
+      "group": "vereinsregister; pa; zusatz: e. v"
+    },
+    {
+      "id": "F6-organe",
+      "form": "F6",
+      "criterion": "organe",
+      "question": "e. V. — Organe",
+      "answer": "Vorstand.",
+      "original": "Vorstand.",
+      "table": 1,
+      "group": "vorstand"
+    },
+    {
+      "id": "F6-haftung",
+      "form": "F6",
+      "criterion": "haftung",
+      "question": "e. V. — Haftung",
+      "answer": "Vereinsvermögen.",
+      "original": "Vereinsvermögen.",
+      "table": 1,
+      "group": "haftung-equivalent-2"
+    },
+    {
+      "id": "F6-gewinn",
+      "form": "F6",
+      "criterion": "gewinn",
+      "question": "e. V. — Gewinnverteilung",
+      "answer": "In der Regel fällt kein Gewinn an.",
+      "original": "In der Regel fällt kein Gewinn an.",
+      "table": 1,
+      "group": "keine gewinnausschüttung an mitglieder als vereinszweck; überschüsse sind möglich"
+    },
+    {
+      "id": "F7-merkmale",
+      "form": "F7",
+      "criterion": "merkmale",
+      "question": "GmbH — Allgemeine Merkmale, Gesetzesgrundlage",
+      "answer": "Kapitalgesellschaft; GmbHG.",
+      "original": "Kapitalgesellschaft; GmbHG.",
+      "table": 2,
+      "group": "gmbh-family"
+    },
+    {
+      "id": "F7-gruendung",
+      "form": "F7",
+      "criterion": "gruendung",
+      "question": "GmbH — Gründung",
+      "answer": "Mindestens 1 Person; notariell beurkundeter Gesellschaftsvertrag; HRB; konstitutive Wirkung der Handelsregistereintragung.",
+      "original": "Mindestens 1 Person; notariell beurkundeter Gesellschaftsvertrag; HRB; konstitutive Wirkung der Handelsregistereintragung.",
+      "table": 2,
+      "group": "gruendung-equivalent-1"
+    },
+    {
+      "id": "F7-kapital",
+      "form": "F7",
+      "criterion": "kapital",
+      "question": "GmbH — Mindestkapital",
+      "answer": "25.000 €; Mindesteinzahlung 12.500 €.",
+      "original": "25.000 €; Mindesteinzahlung 12.500 €.",
+      "table": 2,
+      "group": "kapital-equivalent-1"
+    },
+    {
+      "id": "F7-geschaeftsfuehrung",
+      "form": "F7",
+      "criterion": "geschaeftsfuehrung",
+      "question": "GmbH — Geschäftsführung (Innenverhältnis)",
+      "answer": "Geschäftsführer; gesamt.",
+      "original": "Geschäftsführer; gesamt.",
+      "table": 2,
+      "group": "geschaeftsfuehrung-equivalent-0"
+    },
+    {
+      "id": "F7-vertretung",
+      "form": "F7",
+      "criterion": "vertretung",
+      "question": "GmbH — Vertretung (Außenverhältnis)",
+      "answer": "Geschäftsführer; Gesamtvertretung.",
+      "original": "Geschäftsführer; Gesamtvertretung.",
+      "table": 2,
+      "group": "vertretung-equivalent-1"
+    },
+    {
+      "id": "F7-register",
+      "form": "F7",
+      "criterion": "register",
+      "question": "GmbH — Legitimation, Firma und Registereintragung",
+      "answer": "HRB; PA; Zusatz: GmbH.",
+      "original": "HRB; PA; Zusatz: GmbH.",
+      "table": 2,
+      "group": "hrb; pa; zusatz: gmbh"
+    },
+    {
+      "id": "F7-organe",
+      "form": "F7",
+      "criterion": "organe",
+      "question": "GmbH — Organe",
+      "answer": "Geschäftsführer; Aufsichtsrat; Gesellschafterversammlung.",
+      "original": "Geschäftsführer; Aufsichtsrat; Gesellschafterversammlung.",
+      "table": 2,
+      "group": "organe-equivalent-1"
+    },
+    {
+      "id": "F7-haftung",
+      "form": "F7",
+      "criterion": "haftung",
+      "question": "GmbH — Haftung",
+      "answer": "Gesellschaftsvermögen.",
+      "original": "Gesellschaftsvermögen.",
+      "table": 2,
+      "group": "haftung-equivalent-2"
+    },
+    {
+      "id": "F7-gewinn",
+      "form": "F7",
+      "criterion": "gewinn",
+      "question": "GmbH — Gewinnverteilung",
+      "answer": "Nach Kapitalbeteiligung.",
+      "original": "Nach Kapitalbeteiligung.",
+      "table": 2,
+      "group": "profit-sharing"
+    },
+    {
+      "id": "F8-merkmale",
+      "form": "F8",
+      "criterion": "merkmale",
+      "question": "AG — Allgemeine Merkmale, Gesetzesgrundlage",
+      "answer": "Kapitalgesellschaft; AktG.",
+      "original": "Kapitalgesellschaft; AktG.",
+      "table": 2,
+      "group": "stock-family"
+    },
+    {
+      "id": "F8-gruendung",
+      "form": "F8",
+      "criterion": "gruendung",
+      "question": "AG — Gründung",
+      "answer": "Mindestens 1 Person; notariell beurkundeter Gesellschaftsvertrag; HRB; konstitutive Wirkung der Handelsregistereintragung.",
+      "original": "Mindestens 1 Person; notariell beurkundeter Gesellschaftsvertrag; HRB; konstitutive Wirkung der Handelsregistereintragung.",
+      "table": 2,
+      "group": "gruendung-equivalent-1"
+    },
+    {
+      "id": "F8-kapital",
+      "form": "F8",
+      "criterion": "kapital",
+      "question": "AG — Mindestkapital",
+      "answer": "50.000 €; Nennwert pro Aktie mindestens 1,00 €.",
+      "original": "50.000 €; Nennwert pro Aktie mindestens 1,00 €.",
+      "table": 2,
+      "group": "kapital-equivalent-2"
+    },
+    {
+      "id": "F8-geschaeftsfuehrung",
+      "form": "F8",
+      "criterion": "geschaeftsfuehrung",
+      "question": "AG — Geschäftsführung (Innenverhältnis)",
+      "answer": "Vorstand; gesamt.",
+      "original": "Vorstand; gesamt.",
+      "table": 2,
+      "group": "geschaeftsfuehrung-equivalent-1"
+    },
+    {
+      "id": "F8-vertretung",
+      "form": "F8",
+      "criterion": "vertretung",
+      "question": "AG — Vertretung (Außenverhältnis)",
+      "answer": "Vorstand; Gesamtvertretung.",
+      "original": "Vorstand; Gesamtvertretung.",
+      "table": 2,
+      "group": "vertretung-equivalent-2"
+    },
+    {
+      "id": "F8-register",
+      "form": "F8",
+      "criterion": "register",
+      "question": "AG — Legitimation, Firma und Registereintragung",
+      "answer": "HRB; PA; Zusatz: AG.",
+      "original": "HRB; PA; Zusatz: AG.",
+      "table": 2,
+      "group": "hrb; pa; zusatz: ag"
+    },
+    {
+      "id": "F8-organe",
+      "form": "F8",
+      "criterion": "organe",
+      "question": "AG — Organe",
+      "answer": "Vorstand; Aufsichtsrat; Hauptversammlung.",
+      "original": "Vorstand; Aufsichtsrat; Hauptversammlung.",
+      "table": 2,
+      "group": "organe-equivalent-2"
+    },
+    {
+      "id": "F8-haftung",
+      "form": "F8",
+      "criterion": "haftung",
+      "question": "AG — Haftung",
+      "answer": "Gesellschaftsvermögen.",
+      "original": "Gesellschaftsvermögen.",
+      "table": 2,
+      "group": "haftung-equivalent-2"
+    },
+    {
+      "id": "F8-gewinn",
+      "form": "F8",
+      "criterion": "gewinn",
+      "question": "AG — Gewinnverteilung",
+      "answer": "Nach Kapitalbeteiligung.",
+      "original": "Nach Kapitalbeteiligung.",
+      "table": 2,
+      "group": "profit-sharing"
+    },
+    {
+      "id": "F9-merkmale",
+      "form": "F9",
+      "criterion": "merkmale",
+      "question": "UG (haftungsbeschränkt) — Allgemeine Merkmale, Gesetzesgrundlage",
+      "answer": "Kapitalgesellschaft; Mini-GmbH; GmbHG.",
+      "original": "Kapitalgesellschaft; Mini-GmbH; GmbHG. Spaltenüberschrift im Foto: „UG Unternehmensgesellschaft“.",
+      "table": 2,
+      "group": "gmbh-family"
+    },
+    {
+      "id": "F9-gruendung",
+      "form": "F9",
+      "criterion": "gruendung",
+      "question": "UG (haftungsbeschränkt) — Gründung",
+      "answer": "Mindestens 1 Person; Mustersatzung.",
+      "original": "Mindestens 1 Person; Mustersatzung.",
+      "table": 2,
+      "group": "gruendung-equivalent-1"
+    },
+    {
+      "id": "F9-kapital",
+      "form": "F9",
+      "criterion": "kapital",
+      "question": "UG (haftungsbeschränkt) — Mindestkapital",
+      "answer": "1,00 €.",
+      "original": "1,00 €.",
+      "table": 2,
+      "group": "1,00 €"
+    },
+    {
+      "id": "F9-geschaeftsfuehrung",
+      "form": "F9",
+      "criterion": "geschaeftsfuehrung",
+      "question": "UG (haftungsbeschränkt) — Geschäftsführung (Innenverhältnis)",
+      "answer": "Wie GmbH: Geschäftsführer; gesamt.",
+      "original": "Wie GmbH.",
+      "table": 2,
+      "group": "geschaeftsfuehrung-equivalent-0"
+    },
+    {
+      "id": "F9-vertretung",
+      "form": "F9",
+      "criterion": "vertretung",
+      "question": "UG (haftungsbeschränkt) — Vertretung (Außenverhältnis)",
+      "answer": "Wie GmbH: Geschäftsführer; Gesamtvertretung.",
+      "original": "Wie GmbH.",
+      "table": 2,
+      "group": "vertretung-equivalent-1"
+    },
+    {
+      "id": "F9-register",
+      "form": "F9",
+      "criterion": "register",
+      "question": "UG (haftungsbeschränkt) — Legitimation, Firma und Registereintragung",
+      "answer": "HRB; PA; Zusatz: UG haftungsbeschränkt.",
+      "original": "HRB; PA; Zusatz: UG haftungsbeschränkt.",
+      "table": 2,
+      "group": "hrb; pa; zusatz: ug (haftungsbeschränkt)"
+    },
+    {
+      "id": "F9-organe",
+      "form": "F9",
+      "criterion": "organe",
+      "question": "UG (haftungsbeschränkt) — Organe",
+      "answer": "Gesellschafter; Geschäftsführer.",
+      "original": "Gesellschafter; Geschäftsführer.",
+      "table": 2,
+      "group": "organe-equivalent-1"
+    },
+    {
+      "id": "F9-haftung",
+      "form": "F9",
+      "criterion": "haftung",
+      "question": "UG (haftungsbeschränkt) — Haftung",
+      "answer": "Gesellschaftsvermögen.",
+      "original": "Gesellschaftsvermögen.",
+      "table": 2,
+      "group": "haftung-equivalent-2"
+    },
+    {
+      "id": "F9-gewinn",
+      "form": "F9",
+      "criterion": "gewinn",
+      "question": "UG (haftungsbeschränkt) — Gewinnverteilung",
+      "answer": "Nach Kapitalbeteiligung; Einbehalt 25 % vom Gewinn, bis 25.000,00 € Stammkapital erreicht.",
+      "original": "Nach Kapitalbeteiligung; Einbehalt 25 % vom Gewinn, bis 25.000,00 € Stammkapital erreicht.",
+      "table": 2,
+      "group": "profit-sharing"
+    },
+    {
+      "id": "F10-merkmale",
+      "form": "F10",
+      "criterion": "merkmale",
+      "question": "SE — Allgemeine Merkmale, Gesetzesgrundlage",
+      "answer": "Kapitalgesellschaft; Europäische AG, in mindestens 2 EU-Ländern tätig.",
+      "original": "Kapitalgesellschaft; Europäische AG, in mindestens 2 EU-Ländern tätig.",
+      "table": 2,
+      "group": "stock-family"
+    },
+    {
+      "id": "F10-gruendung",
+      "form": "F10",
+      "criterion": "gruendung",
+      "question": "SE — Gründung",
+      "answer": "Zum Beispiel mindestens 2 Gesellschaften, die verschmelzen.",
+      "original": "Zum Beispiel mindestens 2 Gesellschaften, die verschmelzen.",
+      "table": 2,
+      "group": "zum beispiel mindestens 2 gesellschaften, die verschmelzen"
+    },
+    {
+      "id": "F10-kapital",
+      "form": "F10",
+      "criterion": "kapital",
+      "question": "SE — Mindestkapital",
+      "answer": "120.000 €.",
+      "original": "120.000 €.",
+      "table": 2,
+      "group": "120.000 €"
+    },
+    {
+      "id": "F10-geschaeftsfuehrung",
+      "form": "F10",
+      "criterion": "geschaeftsfuehrung",
+      "question": "SE — Geschäftsführung (Innenverhältnis)",
+      "answer": "Zum Beispiel Verwaltungsrat / je nach System.",
+      "original": "Zum Beispiel Verwaltungsrat / je nach System.",
+      "table": 2,
+      "group": "dualistisches system: vorstand. monistisches system: verwaltungsrat und geschäftsführende direktoren mit unterschiedlichen aufgaben"
+    },
+    {
+      "id": "F10-vertretung",
+      "form": "F10",
+      "criterion": "vertretung",
+      "question": "SE — Vertretung (Außenverhältnis)",
+      "answer": "Zum Beispiel Verwaltungsrat / je nach System.",
+      "original": "Zum Beispiel Verwaltungsrat / je nach System.",
+      "table": 2,
+      "group": "dualistisch: vorstand. monistisch: geschäftsführende direktoren; grundsätzlich gemeinschaftlich"
+    },
+    {
+      "id": "F10-register",
+      "form": "F10",
+      "criterion": "register",
+      "question": "SE — Legitimation, Firma und Registereintragung",
+      "answer": "HRB; PA; Zusatz: SE.",
+      "original": "HRB; PA; Zusatz: SE.",
+      "table": 2,
+      "group": "hrb; pa; zusatz: se"
+    },
+    {
+      "id": "F10-organe",
+      "form": "F10",
+      "criterion": "organe",
+      "question": "SE — Organe",
+      "answer": "Hauptversammlung; Verwaltungsrat.",
+      "original": "Hauptversammlung; Verwaltungsrat.",
+      "table": 2,
+      "group": "organe-equivalent-2"
+    },
+    {
+      "id": "F10-haftung",
+      "form": "F10",
+      "criterion": "haftung",
+      "question": "SE — Haftung",
+      "answer": "Gesellschaftsvermögen.",
+      "original": "Gesellschaftsvermögen.",
+      "table": 2,
+      "group": "haftung-equivalent-2"
+    },
+    {
+      "id": "F10-gewinn",
+      "form": "F10",
+      "criterion": "gewinn",
+      "question": "SE — Gewinnverteilung",
+      "answer": "Nach Kapitalbeteiligung.",
+      "original": "Nach Kapitalbeteiligung.",
+      "table": 2,
+      "group": "profit-sharing"
+    },
+    {
+      "id": "F11-merkmale",
+      "form": "F11",
+      "criterion": "merkmale",
+      "question": "GmbH & Co. KG — Allgemeine Merkmale, Gesetzesgrundlage",
+      "answer": "Mischform; rechtlich KG; Vollhafter: GmbH.",
+      "original": "Mischform; rechtlich KG; Vollhafter: GmbH.",
+      "table": 2,
+      "group": "kg-family"
+    },
+    {
+      "id": "F11-gruendung",
+      "form": "F11",
+      "criterion": "gruendung",
+      "question": "GmbH & Co. KG — Gründung",
+      "answer": "Vollhafter GmbH; Teilhafter.",
+      "original": "Vollhafter GmbH; Teilhafter.",
+      "table": 2,
+      "group": "vollhafter gmbh; teilhafter"
+    },
+    {
+      "id": "F11-kapital",
+      "form": "F11",
+      "criterion": "kapital",
+      "question": "GmbH & Co. KG — Mindestkapital",
+      "answer": "GmbH: 25.000 €.",
+      "original": "GmbH: 25.000 €.",
+      "table": 2,
+      "group": "kapital-equivalent-1"
+    },
+    {
+      "id": "F11-geschaeftsfuehrung",
+      "form": "F11",
+      "criterion": "geschaeftsfuehrung",
+      "question": "GmbH & Co. KG — Geschäftsführung (Innenverhältnis)",
+      "answer": "Geschäftsführer der GmbH; gesamt (Gesellschafterversammlung).",
+      "original": "Geschäftsführer der GmbH; gesamt (Gesellschafterversammlung).",
+      "table": 2,
+      "group": "geschaeftsfuehrung-equivalent-0"
+    },
+    {
+      "id": "F11-vertretung",
+      "form": "F11",
+      "criterion": "vertretung",
+      "question": "GmbH & Co. KG — Vertretung (Außenverhältnis)",
+      "answer": "Geschäftsführer der GmbH; gesamt.",
+      "original": "Geschäftsführer der GmbH; gesamt.",
+      "table": 2,
+      "group": "vertretung-equivalent-1"
+    },
+    {
+      "id": "F11-register",
+      "form": "F11",
+      "criterion": "register",
+      "question": "GmbH & Co. KG — Legitimation, Firma und Registereintragung",
+      "answer": "GmbH: HRB; KG: HRA; PA; Zusatz: GmbH u. Co. KG.",
+      "original": "GmbH: HRB; KG: HRA; PA; Zusatz: GmbH u. Co. KG.",
+      "table": 2,
+      "group": "gmbh: hrb; kg: hra; pa; zusatz: gmbh u. co. kg"
+    },
+    {
+      "id": "F11-organe",
+      "form": "F11",
+      "criterion": "organe",
+      "question": "GmbH & Co. KG — Organe",
+      "answer": "KG: Vollhafter / Teilhafter. Vollhafter GmbH: wie GmbH — Geschäftsführer; Aufsichtsrat; Gesellschafterversammlung.",
+      "original": "KG: Vollhafter / Teilhafter; Vollhafter GmbH: wie GmbH.",
+      "table": 2,
+      "group": "organe-equivalent-1"
+    },
+    {
+      "id": "F11-haftung",
+      "form": "F11",
+      "criterion": "haftung",
+      "question": "GmbH & Co. KG — Haftung",
+      "answer": "GmbH: mit Gesellschaftsvermögen; Teilhafter: mit Einlage.",
+      "original": "GmbH: mit Gesellschaftsvermögen; Teilhafter: mit Einlage.",
+      "table": 2,
+      "group": "haftung-equivalent-1"
+    },
+    {
+      "id": "F11-gewinn",
+      "form": "F11",
+      "criterion": "gewinn",
+      "question": "GmbH & Co. KG — Gewinnverteilung",
+      "answer": "Wie KG: nach Beteiligungsverhältnissen.",
+      "original": "Wie KG.",
+      "table": 2,
+      "group": "profit-sharing"
+    },
+    {
+      "id": "F12-merkmale",
+      "form": "F12",
+      "criterion": "merkmale",
+      "question": "KGaA — Allgemeine Merkmale, Gesetzesgrundlage",
+      "answer": "Mischform; rechtlich Kapitalgesellschaft.",
+      "original": "Mischform; rechtlich Kapitalgesellschaft.",
+      "table": 2,
+      "group": "stock-family"
+    },
+    {
+      "id": "F12-gruendung",
+      "form": "F12",
+      "criterion": "gruendung",
+      "question": "KGaA — Gründung",
+      "answer": "Formfrei; mindestens 2; Teilhafter haben Aktienanteile.",
+      "original": "Formfrei; mindestens 2; Teilhafter haben Aktienanteile.",
+      "table": 2,
+      "group": "notariell beurkundete satzung; mindestens ein komplementär und ein kommanditaktionär. kommanditaktionäre halten aktienanteile"
+    },
+    {
+      "id": "F12-kapital",
+      "form": "F12",
+      "criterion": "kapital",
+      "question": "KGaA — Mindestkapital",
+      "answer": "50.000 €.",
+      "original": "50.000 €.",
+      "table": 2,
+      "group": "kapital-equivalent-2"
+    },
+    {
+      "id": "F12-geschaeftsfuehrung",
+      "form": "F12",
+      "criterion": "geschaeftsfuehrung",
+      "question": "KGaA — Geschäftsführung (Innenverhältnis)",
+      "answer": "Komplementäre allein.",
+      "original": "Komplementäre allein.",
+      "table": 2,
+      "group": "geschaeftsfuehrung-equivalent-2"
+    },
+    {
+      "id": "F12-vertretung",
+      "form": "F12",
+      "criterion": "vertretung",
+      "question": "KGaA — Vertretung (Außenverhältnis)",
+      "answer": "Komplementäre allein.",
+      "original": "Komplementäre allein.",
+      "table": 2,
+      "group": "vertretung-equivalent-0"
+    },
+    {
+      "id": "F12-register",
+      "form": "F12",
+      "criterion": "register",
+      "question": "KGaA — Legitimation, Firma und Registereintragung",
+      "answer": "HRB; PA; Zusatz: KGaA.",
+      "original": "HRB; PA; Zusatz: KGaA.",
+      "table": 2,
+      "group": "hrb; pa; zusatz: kgaa"
+    },
+    {
+      "id": "F12-organe",
+      "form": "F12",
+      "criterion": "organe",
+      "question": "KGaA — Organe",
+      "answer": "Vollhafter; Teilhafter; Aufsichtsrat; Hauptversammlung.",
+      "original": "Vollhafter; Teilhafter; Aufsichtsrat; Hauptversammlung.",
+      "table": 2,
+      "group": "vollhafter; teilhafter; aufsichtsrat; hauptversammlung"
+    },
+    {
+      "id": "F12-haftung",
+      "form": "F12",
+      "criterion": "haftung",
+      "question": "KGaA — Haftung",
+      "answer": "Komplementäre: voll; Teilhafter: mit Aktienanteilen.",
+      "original": "Komplementäre: voll; Teilhafter: mit Aktienanteilen.",
+      "table": 2,
+      "group": "haftung-equivalent-1"
+    },
+    {
+      "id": "F12-gewinn",
+      "form": "F12",
+      "criterion": "gewinn",
+      "question": "KGaA — Gewinnverteilung",
+      "answer": "Wie KG: nach Beteiligungsverhältnissen.",
+      "original": "Wie KG.",
+      "table": 2,
+      "group": "profit-sharing"
+    },
+    {
+      "id": "F13-merkmale",
+      "form": "F13",
+      "criterion": "merkmale",
+      "question": "eG — Allgemeine Merkmale, Gesetzesgrundlage",
+      "answer": "Förderung der Mitglieder; GenG.",
+      "original": "Förderung der Mitglieder; GenG.",
+      "table": 2,
+      "group": "förderung der mitglieder; geng"
+    },
+    {
+      "id": "F13-gruendung",
+      "form": "F13",
+      "criterion": "gruendung",
+      "question": "eG — Gründung",
+      "answer": "Mindestens 3 Personen; Satzung.",
+      "original": "Mindestens 3 Personen; Satzung.",
+      "table": 2,
+      "group": "mindestens 3 personen; satzung"
+    },
+    {
+      "id": "F13-kapital",
+      "form": "F13",
+      "criterion": "kapital",
+      "question": "eG — Mindestkapital",
+      "answer": "Kein Mindestkapital.",
+      "original": "Kein Mindestkapital.",
+      "table": 2,
+      "group": "kapital-equivalent-0"
+    },
+    {
+      "id": "F13-geschaeftsfuehrung",
+      "form": "F13",
+      "criterion": "geschaeftsfuehrung",
+      "question": "eG — Geschäftsführung (Innenverhältnis)",
+      "answer": "Vorstand; gesamt.",
+      "original": "Vorstand; gesamt.",
+      "table": 2,
+      "group": "geschaeftsfuehrung-equivalent-1"
+    },
+    {
+      "id": "F13-vertretung",
+      "form": "F13",
+      "criterion": "vertretung",
+      "question": "eG — Vertretung (Außenverhältnis)",
+      "answer": "Vorstand; gesamt.",
+      "original": "Vorstand; gesamt.",
+      "table": 2,
+      "group": "vertretung-equivalent-2"
+    },
+    {
+      "id": "F13-register",
+      "form": "F13",
+      "criterion": "register",
+      "question": "eG — Legitimation, Firma und Registereintragung",
+      "answer": "Genossenschaftsregister (GenR); Zusatz: e. G.",
+      "original": "Genossenschaftsregister (GenR); Zusatz: e. G.",
+      "table": 2,
+      "group": "genossenschaftsregister (genr); zusatz: e. g"
+    },
+    {
+      "id": "F13-organe",
+      "form": "F13",
+      "criterion": "organe",
+      "question": "eG — Organe",
+      "answer": "Vorstand; Aufsichtsrat; Mitgliederversammlung.",
+      "original": "Vorstand; Aufsichtsrat; Mitgliederversammlung.",
+      "table": 2,
+      "group": "organe-equivalent-2"
+    },
+    {
+      "id": "F13-haftung",
+      "form": "F13",
+      "criterion": "haftung",
+      "question": "eG — Haftung",
+      "answer": "Gesellschaftsvermögen.",
+      "original": "Gesellschaftsvermögen.",
+      "table": 2,
+      "group": "haftung-equivalent-2"
+    },
+    {
+      "id": "F13-gewinn",
+      "form": "F13",
+      "criterion": "gewinn",
+      "question": "eG — Gewinnverteilung",
+      "answer": "Im Verhältnis der Geschäftsguthaben.",
+      "original": "Im Verhältnis der Geschäftsguthaben.",
+      "table": 2,
+      "group": "profit-sharing"
+    }
+  ],
+  "glossary": {
+    "PA": "Personalausweis (Abkürzung der Vorlage)",
+    "HRA": "Handelsregister, Abteilung A",
+    "HRB": "Handelsregister, Abteilung B",
+    "HR": "Handelsregister",
+    "GV": "Gesellschaftsvertrag",
+    "HV": "Hauptversammlung",
+    "AR": "Aufsichtsrat",
+    "GenR": "Genossenschaftsregister",
+    "PartnR": "Partnerschaftsregister",
+    "GuV": "Gewinn und Verlust",
+    "NW": "Nennwert",
+    "Vollhafter": "Persönlich haftender Gesellschafter / Komplementär",
+    "Teilhafter": "Kommanditist; bei KGaA: Kommanditaktionär"
+  }
+}
