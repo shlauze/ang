@@ -1,26 +1,15 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#4f46e5">
-<meta name="description" content="117 Lernkarten zu 13 Unternehmensformen: Karteikarten, Multiple Choice, Zuordnen und Speed Round. Grundlage für die Eröffnung von Firmenkonten.">
+<meta name="description" content="117 Karteikarten zu Unternehmensformen. Antworten lernen, selbst einschätzen und unsichere Karten wiederholen.">
 <title>Study Master — Unternehmensformen</title>
-<link rel="stylesheet" href="styles.css">
-<script src="data.js" defer></script><script src="app.js" defer></script>
+<link rel="stylesheet" href="styles.css"><script src="data.js" defer></script><script src="app.js" defer></script>
 </head>
 <body><main class="page"><div class="shell">
 <header class="header"><h1>Study Master</h1><div class="subtitle"><span>Unternehmensformen</span></div><p class="header-note">Grundlage für die Eröffnung von Firmenkonten</p></header>
-<div class="vm-stats" aria-label="Lernfortschritt"><span class="vm-stat" id="xp">0 XP</span><span class="vm-stat" id="streak">0 Tage in Folge</span><span class="vm-stat" id="mastered">0 / 117 sicher</span></div>
-<div class="vm-goal"><div class="vm-goal-label"><span>Tagesziel</span><span id="goal-text">0 / 10 Antworten</span></div><progress id="goal" max="10" value="0" aria-label="Heutige Antworten"></progress></div>
-<nav class="vm-tabs" aria-label="Lernbereiche"><button class="vm-tab" data-tab="cards" aria-current="page">Karteikarten</button><button class="vm-tab" data-tab="practice">Übungen</button><button class="vm-tab" data-tab="reference">Nachschlagen</button></nav>
-<section class="filters" aria-label="Lernstoff auswählen"><div class="categories" id="categories"><button class="category" data-table="all" aria-pressed="true">Alle</button><button class="category" data-table="1" aria-pressed="false">Tabelle 1</button><button class="category" data-table="2" aria-pressed="false">Tabelle 2</button></div>
-<div class="practice-filters"><label>Unternehmensform<select id="form-filter" class="vm-select"><option value="all">Alle 13 Formen</option></select></label><label>Kriterium<select id="criterion-filter" class="vm-select"><option value="all">Alle 9 Kriterien</option></select></label></div>
-<div class="filter-bottom"><label class="pile-label">Auswahl<select id="pile-filter" class="vm-select"><option value="all">Alle Karten</option><option value="due">Fällige Wiederholungen</option><option value="mistakes">Noch unsicher</option><option value="unseen">Noch nicht gesehen</option></select></label><p id="pool-count" class="vm-muted" aria-live="polite"></p></div></section>
-<section id="cards-pane" class="vm-pane" aria-label="Karteikarten"><div id="cards-content"></div></section>
-<section id="practice-pane" class="vm-pane" aria-label="Übungen" hidden><div id="practice-content"></div></section>
-<section id="reference-pane" class="vm-pane" aria-label="Nachschlagen" hidden><label class="search-label">Im Lernstoff suchen<input id="search" class="vm-input" type="search" placeholder="Zum Beispiel Haftung oder GmbH"></label><p class="vm-small vm-muted">Antworten aus deinen beiden Tabellen. Die Filter oben gelten auch hier.</p><div id="reference-content"></div><details class="glossary"><summary>Abkürzungen</summary><dl id="glossary"></dl></details><p class="source-links"><a href="docs/sources/table-1.png" target="_blank" rel="noopener">Originalfoto 1</a> · <a href="docs/sources/table-2.png" target="_blank" rel="noopener">Originalfoto 2</a> · <a href="data/source.md" download>Lernstoff herunterladen</a></p></section>
-<details class="vm-progress" id="progress-details"><summary>Mein Fortschritt</summary><div class="vm-progress-body"><p>„Sicher“ bedeutet: zuletzt zweimal hintereinander richtig beantwortet oder als gewusst markiert. Karteikarten beruhen auf deiner Selbsteinschätzung.</p><p>Richtige Antworten werden nach 1, 3, 7 und 14 Tagen wiederholt. Unsichere Antworten sind sofort wieder fällig.</p><div id="progress-content"></div><button type="button" id="reset-progress" class="vm-secondary">Fortschritt zurücksetzen</button><div id="reset-confirm" hidden><p>Den Lernfortschritt dieses neuen Trainers löschen?</p><button class="vm-secondary" id="cancel-reset">Abbrechen</button><button class="vm-primary" id="confirm-reset">Jetzt zurücksetzen</button></div></div></details>
-<p class="vm-footer" id="storage-note">117 Karten · 13 Formen · 9 Kriterien. Fortschritt wird in diesem Browser gespeichert.</p><p class="vm-footer">Lerninhalt ausschließlich aus den bereitgestellten Tabellen.</p>
+<section aria-label="Mit Karteikarten lernen" id="cards-content"></section>
+<p class="footer" id="storage-note">117 Karteikarten · Dein Fortschritt wird in diesem Browser gespeichert.</p>
 <p id="status" class="sr-only" role="status" aria-live="polite"></p>
 </div></main></body></html>
